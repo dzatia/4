@@ -9,6 +9,14 @@ ul, ol {
 a {
     text-decoration: none;
 }
+@font-face {
+    src: url(webfonts/alk_life.otf);
+    font-family: alk-life;
+}
+@font-face{
+    src: url(webfonts/bpg_dejavu_sans.ttf);
+    font-family: dejavu;
+}
 header {
     display: flex;
     background-color: #D9D9D9;
@@ -19,6 +27,7 @@ header {
 }
 header ul {
     display: flex; 
+    font-family: alk-life;
     
 }
 header a {
@@ -82,29 +91,37 @@ main {
 span ul {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items:flex-start; */
     margin-top: 8px;
+    text-align: left;
+    
+   
     
 }
 span {
     margin-top: 50px;
     margin-left: 134px;
+  
+    
 }
 .title {
     color: #717276;
     width: 700;
     margin-top: 50px;
-    
+    font-family: dejavu;
     
 }
 .title-1 {
 color: #000000;
 width: 400;
+font-family: alk-life;
 
 }
 .title-2 {
     color:  #000000;
     width: 400;
+    font-weight: bold;
+    font-family: dejavu;
     
     
 }
@@ -120,6 +137,7 @@ footer {
 footer ul {
     padding-top: 71px;
     padding-left: 130px;
+    font-family: alk-life;
     
     
 }
